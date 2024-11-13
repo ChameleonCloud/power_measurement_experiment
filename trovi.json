@@ -1,0 +1,47 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "actionApplication": [
+                {
+                    "@id": "#ChameleonJupyterLab"
+                }
+            ],
+            "author": [
+                {
+                    "@id": "#author_0"
+                }
+            ],
+            "datePublished": "2024-11-11T18:54:58+00:00",
+            "description": "This example illustrates how to create a reproducible experiment in power management and describes tools available within the Chameleon base images, as well as the orchestration and snapshot capabilities.\\r\\n\\r\\nThis artifact contains one file, `Experiment.ipynb`, which sets up one baremetal node, installs an experiment onto it from GitHub, uploads data to the object store, and demonstrates how to analyze it.\\r\\n\\r\\nContact via [GitHub issues](https://github.com/ChameleonCloud/bare_metal_experiment_pattern) or the help desk for issues or questions.",
+            "keywords": "experiment pattern,example",
+            "name": "Power Measurement Experiment"
+        },
+        {
+            "@id": "trovi.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "#author_0",
+            "@type": "Person",
+            "affiliation": "University of Chicago",
+            "name": "Mark Powers"
+        },
+        {
+            "@id": "#ChameleonJupyterLab",
+            "@type": "SoftwareApplication",
+            "name": "Chameleon JupyterLab",
+            "trovi_arguments": "{}",
+            "trovi_type": "jupyterhub",
+            "url": "https://jupyter.chameleoncloud.org/"
+        }
+    ]
+}
